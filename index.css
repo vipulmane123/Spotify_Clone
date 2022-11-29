@@ -1,0 +1,37 @@
+
+
+.box{
+border: 1px solid rgb(235, 233, 233);
+box-shadow: 0 1px 3px rgb(226, 223, 233);
+width: 1100px;
+height: 60px;
+overflow: hidden;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+font-weight: bolder;
+
+}
+.box:hover{
+box-shadow: 0px 0px 6px gray;
+text-decoration: underline;
+}
+.no-und{
+    text-underline-position: none;
+}
+.box div{
+overflow: hidden;
+justify-content: space-between;
+align-items: center;
+margin: 20px;
+
+}
+.box div span{
+color: rgb(65, 65,65);
+font-size: 1.2rem;
+display: inline-block;
+overflow: hidden;
+text-overflow: ellipsis
+}
+
